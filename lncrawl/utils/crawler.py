@@ -283,7 +283,7 @@ class Crawler:
             text = ''
             if not elem.name:
                 text = str(elem).strip()
-            else:
+            elif elem.text.strip():
                 text = '<%s>%s</%s>'
                 text = text % (elem.name, elem.text.strip(), elem.name)
             # end if
