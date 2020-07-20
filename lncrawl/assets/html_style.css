@@ -13,15 +13,15 @@ body {
 
 #content {
   padding: 10px 20px;
-  max-width: 850px;
+  max-width: 100%;
   margin: 10px auto;
-  font-size: 16px;
+  font-size: 30px;
   font-family: 'Merriweather', Georgia, serif;
   text-align: justify;
   line-height: 1.8;
   border-radius: 5px;
   box-shadow: 0 0 10px #000, 0 0 0 1px #000;
-  background-color: #fffff0;
+  background-color: #f4ecd8;
 }
 
 @media (max-width: 925px) {
